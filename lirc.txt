@@ -1,0 +1,86 @@
+to send keys
+ir-ctl -v -S necx:0xd26d04
+
+$ sudo ir-keytable -src0 -p "nec,sony" -c -t
+
+press activity "play":
+7326.160524: lirc protocol(necx): scancode = 0x2d2d75
+7326.797528: lirc protocol(necx): scancode = 0xd26d04
+
+press activity "off":
+7363.861199: lirc protocol(necx): scancode = 0xd26c47
+7363.208185: lirc protocol(necx): scancode = 0x2d2d76
+
+press activity "dvd":
+7391.439697: lirc protocol(sony20): scancode = 0x1ae22e
+7392.102702: lirc protocol(necx): scancode = 0xd26d04
+
+press activity "off":
+7417.028189: lirc protocol(necx): scancode = 0xd26c47
+7416.366152: lirc protocol(sony20): scancode = 0x1ae22f
+
+press activity "tv":
+7432.786188: lirc protocol(necx): scancode = 0x860561
+7433.432344: lirc protocol(necx): scancode = 0xd26d04
+
+press activity "off":
+7448.075721: lirc protocol(necx): scancode = 0xd26c47
+7448.703801: lirc protocol(necx): scancode = 0x860560
+
+Note: By adding the audio device first in the "my nevo" app then it will send
+the audio device off code before the activity off code. that is what I want.
+
+all keys for shield (lg dvd):
+lirc protocol(necx): scancode = 0x2d2d45
+lirc protocol(necx): scancode = 0x2d2d67
+lirc protocol(necx): scancode = 0x2d2d45
+lirc protocol(necx): scancode = 0x2d2d77
+lirc protocol(necx): scancode = 0x2d2d78
+lirc protocol(necx): scancode = 0x2d2d31
+lirc protocol(necx): scancode = 0x2d2d4b
+lirc protocol(necx): scancode = 0x2d2d32
+lirc protocol(necx): scancode = 0x2d2d38
+lirc protocol(necx): scancode = 0x2d2d33
+lirc protocol(necx): scancode = 0x2d2dbf
+lirc protocol(necx): scancode = 0x2d2d39
+lirc protocol(necx): scancode = 0x2d2d56
+lirc protocol(necx): scancode = 0x2d2d3a
+lirc protocol(necx): scancode = 0x2d2db6
+lirc protocol(necx): scancode = 0x2d2d3b
+lirc protocol(necx): scancode = 0x2d2d3c
+lirc protocol(necx): scancode = 0x2d2d3d
+lirc protocol(necx): scancode = 0x2d2d3e
+lirc protocol(necx): scancode = 0x2d2d3f
+lirc protocol(necx): scancode = 0x2d2d40
+lirc protocol(necx): scancode = 0x2d2d41
+lirc protocol(necx): scancode = 0x2d2d42
+lirc protocol(necx): scancode = 0x2d2d43
+lirc protocol(necx): scancode = 0x2d2d44
+
+all keys for bluray (sony):
+lirc protocol(sony20): scancode = 0x1ae243
+lirc protocol(sony20): scancode = 0x1ae242
+lirc protocol(sony20): scancode = 0x1ae243
+lirc protocol(sony20): scancode = 0x1ae210
+lirc protocol(sony20): scancode = 0x1ae211
+lirc protocol(sony20): scancode = 0x1ae276
+lirc protocol(sony20): scancode = 0x1ae21a
+lirc protocol(sony20): scancode = 0x1ae229
+lirc protocol(sony20): scancode = 0x1ae21b
+lirc protocol(sony20): scancode = 0x1ae219
+lirc protocol(sony20): scancode = 0x1ae21c
+lirc protocol(sony20): scancode = 0x1ae22a
+lirc protocol(sony20): scancode = 0x1ae218
+lirc protocol(sony20): scancode = 0x1ae242
+lirc protocol(sony20): scancode = 0x1ae241
+lirc protocol(sony20): scancode = 0x1ae21d
+lirc protocol(sony20): scancode = 0x1ae200
+lirc protocol(sony20): scancode = 0x1ae201
+lirc protocol(sony20): scancode = 0x1ae202
+lirc protocol(sony20): scancode = 0x1ae203
+lirc protocol(sony20): scancode = 0x1ae204
+lirc protocol(sony20): scancode = 0x1ae205
+lirc protocol(sony20): scancode = 0x1ae206
+lirc protocol(sony20): scancode = 0x1ae207
+lirc protocol(sony20): scancode = 0x1ae208
+lirc protocol(sony20): scancode = 0x1ae209
